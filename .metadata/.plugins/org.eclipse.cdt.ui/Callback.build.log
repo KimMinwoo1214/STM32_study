@@ -1,0 +1,10 @@
+16:40:04 **** Incremental Build of configuration Debug for project Callback ****
+make -j12 all 
+arm-none-eabi-size  Callback.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6204	     12	   1572	   7788	   1e6c	Callback.elf
+Finished building: default.size.stdout
+ 
+
+16:40:04 Build Finished. 0 errors, 0 warnings. (took 211ms)
+
