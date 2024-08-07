@@ -1,0 +1,10 @@
+10:31:03 **** Build of configuration Debug for project 1000ms_INT ****
+make -j12 all 
+arm-none-eabi-size  1000ms_INT.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8760	     12	   1716	  10488	   28f8	1000ms_INT.elf
+Finished building: default.size.stdout
+ 
+
+10:31:04 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

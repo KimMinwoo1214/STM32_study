@@ -1,11 +1,15 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test_Project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Int_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Serial_exe Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Callback Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_INT Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test_Project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Int_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Serial_exe Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Callback Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_INT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timer_ex Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1000ms_INT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_pwm_example Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWM_Dimming Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_MPU6050 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:mini_pro Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM_Exam Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1000ms_INT\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1000ms_INT\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Callback\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Callback\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Int_Test\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Int_Test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test_Project\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Test_Project\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:cubemx_pwm_example\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timer_ex\ Debug/activeLaunchMode=debug

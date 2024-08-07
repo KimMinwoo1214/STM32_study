@@ -1,0 +1,10 @@
+10:31:04 **** Build of configuration Debug for project PWM_Dimming ****
+make -j12 all 
+arm-none-eabi-size  PWM_Dimming.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10328	     12	   1644	  11984	   2ed0	PWM_Dimming.elf
+Finished building: default.size.stdout
+ 
+
+10:31:05 Build Finished. 0 errors, 0 warnings. (took 255ms)
+

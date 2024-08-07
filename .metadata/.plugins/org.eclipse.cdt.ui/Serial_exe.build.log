@@ -1,4 +1,4 @@
-11:14:39 **** Incremental Build of configuration Debug for project Serial_exe ****
+10:31:08 **** Build of configuration Debug for project Serial_exe ****
 make -j12 all 
 arm-none-eabi-size  Serial_exe.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Serial_exe.elf
 Finished building: default.size.stdout
  
 
-11:14:39 Build Finished. 0 errors, 0 warnings. (took 202ms)
+10:31:08 Build Finished. 0 errors, 0 warnings. (took 256ms)
 

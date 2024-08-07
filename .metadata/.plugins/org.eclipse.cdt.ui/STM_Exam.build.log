@@ -1,0 +1,25 @@
+11:31:46 **** Incremental Build of configuration Debug for project STM_Exam ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:3: warning: implicit declaration of function 'srand' [-Wimplicit-function-declaration]
+  107 |   srand(HAL_GetTick());
+      |   ^~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:305:31: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+  305 |                 randomNum1 = (rand() % 100);
+      |                               ^~~~
+arm-none-eabi-gcc -o "STM_Exam.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\werkm\STM32CubeIDE\workspace_1.16.0\STM_Exam\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Exam.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Exam.elf
+ 
+arm-none-eabi-size  STM_Exam.elf 
+arm-none-eabi-objdump -h -S STM_Exam.elf  > "STM_Exam.list"
+   text	   data	    bss	    dec	    hex	filename
+  18656	    104	   2080	  20840	   5168	STM_Exam.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Exam.list
+ 
+
+11:31:46 Build Finished. 0 errors, 2 warnings. (took 768ms)
+
